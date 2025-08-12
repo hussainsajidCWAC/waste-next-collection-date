@@ -1,0 +1,32 @@
+#bin-schedule-content {
+    font-size: 12pt;
+}
+
+#bin-schedule-content h3 {
+    padding-bottom: 20px;
+}
+
+.bin-schedule-content-service-card, .bin-schedule-content-bin-card {
+    padding-bottom: 20px;
+}
+
+.bin-schedule-content-bin-card {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bin-schedule-content-bin-card img {
+    height: 100px;
+}
+
+.bin-schedule-content-info p {
+    width: 100%;
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .bin-schedule-content-info {
+        padding-top: 15px;
+    }
+    
+}
